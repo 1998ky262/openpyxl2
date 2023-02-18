@@ -13,7 +13,7 @@ for i in range(100):
     random_n = random.random()
     cell = sheet.cell(row=i+1, column=1, value=random_n)
     print(random_n)
-    time.sleep(0.06)
+    time.sleep(0.1)
     
 
 # Excelファイルを保存する
